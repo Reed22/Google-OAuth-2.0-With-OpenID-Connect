@@ -1,0 +1,19 @@
+doctype html
+html
+    head
+        meta(charset='utf-8')
+        title Client
+        link(rel='stylesheet', type='text/css', href='css/styles.css')
+        link(rel='stylesheet', type='text/css', href='/css/bootstrap.min.css')
+        link(rel='stylesheet', type='text/css', href='/css/styles.css')
+    body(class="text-center mybody")
+        nav(class="navbar navbar-expand-lg navbar-light bg-light")
+            div(class="collapse navbar-collapse" id="navbarNavAltMarkup")
+                div(class="navbar-nav")
+                    a(class="nav-item nav-link" href="/") Welcome 
+                    a(class="nav-item nav-link" href="/oauth") User 
+        block content
+        script(src="/js/popper.min.js")
+        script(src="/js/jquery-slim.min.js")
+        script(src="/js/bootstrap.min.js")
+

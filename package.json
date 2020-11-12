@@ -1,0 +1,22 @@
+{
+  "name": "hw7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/datastore": "^6.3.0",
+    "@supercharge/strings": "^1.15.1",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "express-jwt": "^6.0.0",
+    "express-session": "^1.17.1",
+    "jwks-rsa": "^1.11.0",
+    "pug": "^3.0.0"
+  }
+}

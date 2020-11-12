@@ -1,0 +1,9 @@
+extends master.pug
+block content
+    if incorrectState
+        h1(class="display-4") #{incorrectState}
+    else
+        h1(class="display-2") User Info Page
+        h2(class="display-4") First Name: #{firstName}
+        h2(class="display-4") Last Name: #{lastName}
+        h3 JWT: #{jwt}
